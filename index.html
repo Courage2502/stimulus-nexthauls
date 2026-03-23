@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="refresh" content="3; url=https://linkthem.net/aff_c?offer_id=2343&aff_id=163253">
+  <title>Free Senior Benefits USA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy: #0a1f44;
+      --red: #c8102e;
+      --gold: #f0a500;
+      --white: #ffffff;
+      --light: #f4f7fc;
+    }
+
+    body {
+      min-height: 100vh;
+      background: var(--navy);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Source Sans 3', sans-serif;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Animated star background */
+    .stars {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background:
+        radial-gradient(ellipse at 20% 30%, rgba(200,16,46,0.15) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 70%, rgba(240,165,0,0.1) 0%, transparent 60%),
+        var(--navy);
+    }
+
+    .stars::before, .stars::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 30% 60%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 50% 10%, rgba(255,255,255,0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 80%, rgba(255,255,255,0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 40%, rgba(255,255,255,0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 15% 75%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 50%, rgba(255,255,255,0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 85% 15%, rgba(255,255,255,0.3) 0%, transparent 100%);
+      animation: twinkle 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes twinkle {
+      0% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+
+    /* Main card */
+    .card {
+      position: relative;
+      z-index: 1;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 24px;
+      padding: 52px 44px 44px;
+      max-width: 480px;
+      width: 92%;
+      text-align: center;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 32px 80px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.1);
+      animation: fadeUp 0.8s cubic-bezier(0.22,1,0.36,1) both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(32px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Flag stripe accent */
+    .stripe {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 5px;
+      border-radius: 24px 24px 0 0;
+      background: linear-gradient(90deg, var(--red) 33%, var(--white) 33%, var(--white) 66%, #1a3a8c 66%);
+    }
+
+    /* Shield icon */
+    .shield {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 20px;
+      background: linear-gradient(135deg, var(--gold), #e08c00);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      box-shadow: 0 8px 24px rgba(240,165,0,0.35);
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 8px 24px rgba(240,165,0,0.35); }
+      50% { box-shadow: 0 8px 40px rgba(240,165,0,0.6); }
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.5rem, 5vw, 2rem);
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 10px;
+      letter-spacing: -0.02em;
+    }
+
+    h1 span {
+      color: var(--gold);
+    }
+
+    .subtitle {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 32px;
+      line-height: 1.5;
+    }
+
+    /* Benefits list */
+    .benefits {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 32px;
+      text-align: left;
+    }
+
+    .benefit-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.85);
+      font-weight: 600;
+      animation: fadeUp 0.8s cubic-bezier(0.22,1,0.36,1) both;
+    }
+
+    .benefit-item:nth-child(1) { animation-delay: 0.1s; }
+    .benefit-item:nth-child(2) { animation-delay: 0.15s; }
+    .benefit-item:nth-child(3) { animation-delay: 0.2s; }
+    .benefit-item:nth-child(4) { animation-delay: 0.25s; }
+    .benefit-item:nth-child(5) { animation-delay: 0.3s; }
+    .benefit-item:nth-child(6) { animation-delay: 0.35s; }
+
+    .benefit-item .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--gold);
+      flex-shrink: 0;
+    }
+
+    /* Progress bar */
+    .progress-wrap {
+      margin-bottom: 20px;
+    }
+
+    .progress-label {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .progress-label span {
+      color: var(--gold);
+      font-weight: 600;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 6px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 99px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--red), var(--gold));
+      border-radius: 99px;
+      animation: fill 3s linear forwards;
+    }
+
+    @keyframes fill {
+      from { width: 0%; }
+      to { width: 100%; }
+    }
+
+    /* CTA Button */
+    .cta-btn {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      background: linear-gradient(135deg, var(--red), #9b0c22);
+      color: var(--white);
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      letter-spacing: 0.03em;
+      box-shadow: 0 8px 24px rgba(200,16,46,0.4);
+      transition: transform 0.2s, box-shadow 0.2s;
+      animation: fadeUp 0.8s 0.4s cubic-bezier(0.22,1,0.36,1) both;
+    }
+
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 32px rgba(200,16,46,0.5);
+    }
+
+    .disclaimer {
+      margin-top: 16px;
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.3);
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="stars"></div>
+
+  <div class="card">
+    <div class="stripe"></div>
+
+    <div class="shield">🛡️</div>
+
+    <h1>Free Senior <span>Benefits</span> USA 🇺🇸</h1>
+    <p class="subtitle">Finding available stimulus & benefits in your area. Please wait a moment...</p>
+
+    <div class="benefits">
+      <div class="benefit-item"><span class="dot"></span> Health Insurance</div>
+      <div class="benefit-item"><span class="dot"></span> Housing Relief</div>
+      <div class="benefit-item"><span class="dot"></span> Financial Benefits</div>
+      <div class="benefit-item"><span class="dot"></span> Dental Resources</div>
+      <div class="benefit-item"><span class="dot"></span> Family Care</div>
+      <div class="benefit-item"><span class="dot"></span> Final Expenses</div>
+    </div>
+
+    <div class="progress-wrap">
+      <div class="progress-label">
+        <span>Loading your benefits...</span>
+        <span id="pct">0%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+    </div>
+
+    <a href="https://linkthem.net/aff_c?offer_id=2343&aff_id=163253" class="cta-btn">
+      ✅ Click Here If Not Redirected Automatically
+    </a>
+
+    <p class="disclaimer">This site is not affiliated with any government agency. Free to access.</p>
+  </div>
+
+  <script>
+    // Animate percentage counter
+    const pct = document.getElementById('pct');
+    let count = 0;
+    const interval = setInterval(() => {
+      count++;
+      pct.textContent = count + '%';
+      if (count >= 100) {
+        clearInterval(interval);
+        window.location.href = "https://linkthem.net/aff_c?offer_id=2343&aff_id=163253";
+      }
+    }, 30);
+  </script>
+
+</body>
+</html>
